@@ -10,17 +10,58 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		    <script src="static/js/jquery-1.7.2.min.js"></script>  
-	        <script src="static/js/utilities.js?${random_number}"></script>  
+	    <script src="static/js/jquery-1.7.2.min.js"></script>  
+        <script src="static/js/utilities.js?${random_number}"></script>  
 
-	        <link rel="stylesheet" href="static/css/320andup.css">
-	        #*
-			<link rel="stylesheet" href="static/css/bootstrap.min.css">
-			*#
-	        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="static/css/bootstrap-responsive.min.css">
+		
+        <link rel="stylesheet" href="static/css/styles.css">
+
+		#* typekit *#
+		<script type="text/javascript" src="//use.typekit.net/usp1tie.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		
+
 </head>
 
     <body>
-        ${body}
+	
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		 	#* empty nav for now *#
+		 </div>
+		<div class="container">
+        	${body}
+
+			#* bottom nav *#
+			<div class="centered-pills">
+				<ul class="nav nav-pills">
+				#if $active_page == 'index'
+				<li class="active">
+				#else
+				<li>
+				#end if	
+				    <a href="/">Home</a>
+				</li>
+			
+				#if $active_page == 'map'
+				<li class="active">
+				#else
+				<li>
+				#end if					
+					<a href="/map">Map</a>
+				</li>
+				
+				#if $active_page == 'contact'
+				<li class="active">
+				#else
+				<li>
+				#end if
+					<a href="/contact">Contact</a>
+				</li>
+				</ul>
+			</div>
+		</div>
     </body>
 </html>

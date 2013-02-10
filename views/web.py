@@ -37,6 +37,8 @@ class DefaultHandler(tornado.web.RequestHandler):
          # always include a random number so we can avoid JS caching.
         config_arg['random_number'] = random.randint(0, 1000)
                         
+        config_arg['active_page'] = template_name
+                        
         template = Template(
             file="media/tmpl/%s.py" % template_name,
             searchList=[config_arg], 
@@ -74,6 +76,8 @@ def is_supported_page(basename):
     
 def supported_pages():
     return [
-        'map'
+        'map',
+        'contact',
+        'index'
     ]
             

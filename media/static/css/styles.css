@@ -1,0 +1,65 @@
+/*
+   from: http://colorschemedesigner.com/#2531TFiRRw0w0
+   Yellows
+      D7FD00
+      A8BE27
+      8CA400
+      E1FE3F
+      E9FE72
+      
+   Magentas
+      F60053
+      B92E5D
+      A00036
+      FB3F7E
+      FB719F
+   
+   Purples
+      660EE8
+      6533A3
+      400597
+      8D48F3
+      A876F3
+*/
+
+body {
+   background-color: #E9FE72;
+}
+
+
+h1 {
+  font-family: "chippewa-falls",sans-serif;
+  text-align: center;
+  
+}
+
+.hero-unit {
+   background-color: #E1FE3F;
+}
+
+p {
+   font-family: "anivers",sans-serif;
+}
+
+.centered-pills { 
+   text-align:center; 
+}
+.centered-pills ul.nav-pills { 
+   display:inline-block;
+}
+.centered-pills li { 
+   display:inline; 
+}
+.centered-pills a { 
+   float:left; 
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+   color: white;
+   background-color: #660EE8;
+}
+
+a {
+   color: #660EE8;
+   text-decoration: none;
+}
