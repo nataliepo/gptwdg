@@ -59,7 +59,8 @@ class MainIndex(DefaultHandler):
         
         
 class Page(DefaultHandler):
-    def get(self, basename=''):        
+    def get(self, basename=''):   
+        
         self.render(is_supported_page(basename), {'foo': 'bar'})
         
         return
@@ -78,6 +79,7 @@ def supported_pages():
     return [
         'map',
         'contact',
+        'rsvp',
         'index'
     ]
             

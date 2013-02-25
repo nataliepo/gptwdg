@@ -21,9 +21,21 @@
       8D48F3
       A876F3
 */
+/*
+   round two
+      99FFCC - light mint
+      66FFCC
+      99FF66 - light green
+      
+      99ccff - light blue
+*/
 
 body {
-   background-color: #E9FE72;
+  /*
+   background-color: #99FFCC;
+   
+   background-image:url('../img/tiles4.jpg');
+   */
 }
 
 
@@ -34,7 +46,7 @@ h1 {
 }
 
 .hero-unit {
-   background-color: #E1FE3F;
+   background-color: #99FFCC;
 }
 
 p {
@@ -56,10 +68,19 @@ p {
 
 .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
    color: white;
-   background-color: #660EE8;
+   background-color: #6699CC;
 }
 
 a {
-   color: #660EE8;
+   color: #6699CC;
    text-decoration: none;
+}
+
+.map {
+   width: 700px;
+   margin: 50px auto 0px;
+}
+
+.map p {
+   text-align: center;
 }
