@@ -31,22 +31,47 @@
 */
 
 body {
-  /*
-   background-color: #99FFCC;
-   
+  
+   background-color: #F8DFCD;
+  /* 
    background-image:url('../img/tiles4.jpg');
    */
+   
+   color: #DD8F00;
+   font-size: 18px;
 }
 
 
 h1 {
-  font-family: "chippewa-falls",sans-serif;
   text-align: center;
+  color: #DD8F00;
   
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 74px;
+  letter-spacing: 10px;
+  font-size: 74px;
 }
 
+h2 {
+   text-align: center;
+   font-size: 34px;
+   font-family: "futura-pt",sans-serif;
+   font-style: normal;
+   font-weight: 100;
+   text-transform: uppercase;
+   margin: 45px auto 0 auto;
+}
+
+.super-large {
+   font-size: 100px;
+   font-weight: 200;
+   
+}
 .hero-unit {
-   background-color: #99FFCC;
+   
 }
 
 p {
@@ -55,6 +80,7 @@ p {
 
 .centered-pills { 
    text-align:center; 
+   margin: 50px auto;
 }
 .centered-pills ul.nav-pills { 
    display:inline-block;
@@ -67,13 +93,16 @@ p {
 }
 
 .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-   color: white;
-   background-color: #6699CC;
+   color: #F8DFCD !important;
+   background-color: #DD8F00;
 }
 
 a {
-   color: #6699CC;
-   text-decoration: none;
+   color: #BD7600 !important;
+   text-decoration: underline;
+   
+   font-family: "futura-pt",sans-serif;
+   font-style: normal;
 }
 
 .map {
@@ -83,4 +112,42 @@ a {
 
 .map p {
    text-align: center;
+}
+
+.row {
+   margin: 25px auto;
+}
+
+.row p {
+   font-family: "futura-pt",sans-serif;
+   font-style: normal;
+   font-size: 18pt;
+   line-height: 24pt;
+   
+   text-align: center;
+   margin: 40px auto 0 auto;
+}
+
+li {
+   font-family: "futura-pt",sans-serif;
+   font-style: normal;
+   font-size: 18pt;
+   line-height: 24pt;
+   margin: 0px 0px 25px 0px;
+}
+
+.accomo-list ul {
+   margin: 25px 80px 0 80px;
+}
+
+.left {
+   float: left;
+}
+
+.right {
+   float: right;
+}
+
+.accomo-list {
+   margin: 95px 50px 0 50px;
 }

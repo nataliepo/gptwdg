@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="static/css/styles.css">
 
 		#* typekit *#
-		<script type="text/javascript" src="//use.typekit.net/usp1tie.js"></script>
+		<script type="text/javascript" src="//use.typekit.net/sgr1ljb.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		
 
@@ -45,14 +45,11 @@
 				    <a href="/">Home</a>
 				</li>
 			
-				#if $active_page == 'map'
-				<li class="active">
-				#else
-				<li>
-				#end if					
-					<a href="/map">Map</a>
-				</li>
+			
 				
+				#*************** 
+				 * contact is useless 
+				 * 
 				#if $active_page == 'contact'
 				<li class="active">
 				#else
@@ -60,6 +57,24 @@
 				#end if
 					<a href="/contact">Contact</a>
 				</li>
+				 *************# 
+				
+				#if $active_page == 'accommodations'
+				<li class="active">
+				#else
+				<li>
+				#end if
+					<a href="/accommodations">Accommodations</a>
+				</li>
+			
+				#if $active_page == 'map'
+				<li class="active">
+				#else
+				<li>
+				#end if					
+					<a href="/map">Map</a>
+				</li>
+			
 				</ul>
 			</div>
 		</div>

@@ -1,14 +1,12 @@
 #encoding UTF-8 
 
 #def body
-<div class="hero-unit">
-    <h1>In Love In Greenpoint</h1>
-</div>
 
-<div class="row">
-   #*
-        <p>June 8, 2013</p>
-    *#
+<div class="row front-page">
+<h1>Natalie<br /><span class="super-large">&</span><br />Ricky</br></h1>
+<h2>are getting married.</h2>
+    
+
 </div>
 
 #end def

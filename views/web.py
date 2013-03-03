@@ -27,7 +27,8 @@ class DefaultHandler(tornado.web.RequestHandler):
               
         config_arg.update({
             # 'BASE_URL': settings.BASE_URL, 
-            # 'ASSET_URL': settings.ASSET_URL,    
+            # 'ASSET_URL': settings.ASSET_URL,   
+            'ROOT_URL': settings.BASE_URL 
         })
             
         kwargs.update(config_arg)
@@ -80,6 +81,7 @@ def supported_pages():
         'map',
         'contact',
         'rsvp',
-        'index'
+        'index',
+        'accommodations'
     ]
             
