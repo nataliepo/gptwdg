@@ -29,9 +29,6 @@ class Application(tornado.web.Application):
     def __init__(self):
 
         handlers = [         
-            
-            # MINISITE VIEWS
-            #(r"/api/%s/minisite/issues.(json|js)" % api.API_VERSION(), api.MinisiteIssues),
             (r"/(.*)", views.web.Page),
             (r"/", views.web.MainIndex),
             

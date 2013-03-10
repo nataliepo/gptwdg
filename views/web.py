@@ -20,6 +20,8 @@ from tornado.options import define, options
 
 import settings as settings
 
+    
+
 class DefaultHandler(tornado.web.RequestHandler):
     
     def render(self, template_name, config_arg={}, **kwargs):
@@ -45,23 +47,19 @@ class DefaultHandler(tornado.web.RequestHandler):
             searchList=[config_arg], 
             compilerSettings = compiler_settings)
         result = str(template)
-                
         self.write(result)
-            
-        result = ''
         return        
 
-class MainIndex(DefaultHandler):
 
+
+class MainIndex(DefaultHandler):
     def get(self):
-        
         return self.render('index')
         
         
         
 class Page(DefaultHandler):
     def get(self, basename=''):   
-        
         self.render(is_supported_page(basename), {'foo': 'bar'})
         
         return
