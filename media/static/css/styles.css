@@ -97,8 +97,12 @@ p {
    background-color: #DD8F00;
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+   background-color: #F8DFCD;
+}
+
 a {
-   color: #BD7600 !important;
+   color: #DD8F00 !important;
    text-decoration: underline;
    
    font-family: "futura-pt",sans-serif;
