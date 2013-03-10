@@ -144,6 +144,10 @@ li {
    float: left;
 }
 
+p.left {
+   text-align: left;
+}
+
 .right {
    float: right;
 }
@@ -154,5 +158,9 @@ li {
 
 .rsvp-form {
    width: 50%;
-   margin: 0pt auto;
+   margin: 25pt auto;
+}
+
+.top-spacer {
+   margin-top: 150px;
 }

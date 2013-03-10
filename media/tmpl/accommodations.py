@@ -5,12 +5,14 @@
     <h1>Accommodations</h1>
     
     
-    <p>The wedding ceremony and reception will be at Transmitter Park in Greenpoint, Brooklyn (see: <a href="${ROOT_URL}/map">Map</a>) at 12 noon.  It's a small, waterfront park and it will be obvious as soon as you enter where the wedding will be.</p>
+    <p class="left">The wedding ceremony and reception will be at Transmitter Park in Greenpoint, Brooklyn (see: <a href="${ROOT_URL}/map">Map</a>) at 12 noon.  It's a small, waterfront park and it will be obvious as soon as you enter where the wedding will be.</p>
 
-<p>Public transportation to and from the wedding is strongly recommended!  We are New Yorker transplants, and, for our special day, you can, too.</p>
+<p class="left">Public transportation to and from the wedding is strongly recommended!  We are New Yorker transplants, and, for our special day, you can, too.</p>
 
 
-<p>New York City has many, many, many hotels. <a href="http://airbnb.com">Air B & B</a> is popular if you'd like to stay in a homey apartment as an alternative.  Ask us if you find a hotel/Air B&B and aren't sure if it's easy to take the train to our wedding. We're pretty damn good at subway optimizations by now.</a></p>
+<p class="left">New York City has many, many, many hotels. <a href="http://airbnb.com">Air B & B</a> is popular if you'd like to stay in a homey apartment as an alternative.  Ask us if you find a hotel/Air B&B and aren't sure if it's easy to take the train to our wedding. We're pretty damn good at subway optimizations by now.</a></p>
+
+<div style="clear: both;"></div>
 
 <h2 class="left">Manhattan</h2>
 <ul class="accomo-list">

@@ -3,7 +3,7 @@
 #def body
 <div class="row">
 
-    <h1>Mappy Map</h1>
+    <h1>Map</h1>
 
 
     <div class="map">

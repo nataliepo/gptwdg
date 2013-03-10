@@ -74,6 +74,14 @@
 				#end if					
 					<a href="/map">Map</a>
 				</li>
+				
+				#if $active_page == 'rsvp'
+				<li class="active">
+				#else
+				<li>
+				#end if					
+					<a href="/rsvp">RSVP</a>
+				</li>
 			
 				</ul>
 			</div>

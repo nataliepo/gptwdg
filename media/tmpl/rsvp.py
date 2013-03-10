@@ -12,7 +12,7 @@
     </div>
 
 
-   
+   <p>If you've already RSVP'd, be cool &mdash; we already have your response. </p>
 </div>
 
 #end def
