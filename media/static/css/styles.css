@@ -84,6 +84,7 @@ p {
 }
 .centered-pills ul.nav-pills { 
    display:inline-block;
+   margin-bottom: 0px !important;
 }
 .centered-pills li { 
    display:inline; 
@@ -137,7 +138,7 @@ li {
    font-style: normal;
    font-size: 18pt;
    line-height: 24pt;
-   margin: 0px 0px 25px 0px;
+   margin: 0px 0px 15px 0px;
 }
 
 .accomo-list ul {

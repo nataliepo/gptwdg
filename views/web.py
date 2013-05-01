@@ -80,6 +80,7 @@ def supported_pages():
         'contact',
         'rsvp',
         'index',
-        'accommodations'
+        'accommodations',
+        'gifts'
     ]
             

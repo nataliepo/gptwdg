@@ -75,12 +75,25 @@
 					<a href="/map">Map</a>
 				</li>
 				
+				</ul>
+				
+				<ul class="nav nav-pills">
+				
 				#if $active_page == 'rsvp'
 				<li class="active">
 				#else
 				<li>
 				#end if					
 					<a href="/rsvp">RSVP</a>
+				</li>
+				
+				
+				#if $active_page == 'gifts'
+				<li class="active">
+				#else
+				<li>
+				#end if					
+					<a href="/gifts">Gifts</a>
 				</li>
 			
 				</ul>
