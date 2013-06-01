@@ -44,21 +44,7 @@
 				#end if	
 				    <a href="/">Home</a>
 				</li>
-			
-			
-				
-				#*************** 
-				 * contact is useless 
-				 * 
-				#if $active_page == 'contact'
-				<li class="active">
-				#else
-				<li>
-				#end if
-					<a href="/contact">Contact</a>
-				</li>
-				 *************# 
-				
+							
 				#if $active_page == 'accommodations'
 				<li class="active">
 				#else
@@ -98,7 +84,14 @@
 			
 				</ul>
 			</div>
+		
+		   <div class="inquiry_footer">
+		      <a href="/contact">Other Inquiries</a>
+		   </div>
+		
 		</div>
+		
+		
 		
 		
 		<script type="text/javascript">

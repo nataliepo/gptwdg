@@ -81,6 +81,6 @@ def supported_pages():
         'rsvp',
         'index',
         'accommodations',
-        'gifts'
+        'gifts',
     ]
             

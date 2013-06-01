@@ -14,6 +14,18 @@
 
 <div style="clear: both;"></div>
 
+<h2 class="left">Queens</h2>
+
+<ul class="accomo-list">
+
+<li>Long Island City is the most convenient to Greenpoint. <a href="http://www.kayak.com/hotels/Long-Island-City,NY-c207/2013-06-07/2013-06-09">Here</a> are the kayak.com results and <a href="https://www.airbnb.com/s/Long-Island-City--Queens--NY?checkin=06%2F07%2F2013&checkout=06%2F09%2F2013&guests=2&sw_lat=40.73916676620979&sw_lng=-73.95688045251461&ne_lat=40.75399261855144&ne_lng=-73.93731105554195&search_by_map=true">these</a> are the Air B&B listings.</a> <br /><br />
+To get to the wedding from Long Island City, take the <b>G</b> at the Court Square station two stops south to the Greenpoint Avenue station.</li>
+
+</ul>
+
+<Br />
+
+
 <h2 class="left">Manhattan</h2>
 <ul class="accomo-list">
 <li>Times Square or Grand Central typically have the best hotel deals. <a href="http://www.kayak.com/hotels/Times-Square,New-York,NY-c15830-l5515/2013-06-07/2013-06-09">Here</a> are some hotels from kayak.com and <a href="https://www.airbnb.com/s/Times-Square--New-York--NY?checkin=06%2F07%2F2013&checkout=06%2F09%2F2013&guests=2">here</a> are the listings for airbnb.com.<br /><br /> To get to the wedding from Times Square or Grand Central, take the <b>7</b> (Times Square or Grand Central Station) to  the Court Square station in Queens, then the <b>G</b> south to the Greenpoint Avenue station. </li>
@@ -25,16 +37,7 @@
 </ul>
 
 <br />
-<h2 class="left">Queens</h2>
 
-<ul class="accomo-list">
-
-<li>Long Island City is the most convenient to Greenpoint. <a href="http://www.kayak.com/hotels/Long-Island-City,NY-c207/2013-06-07/2013-06-09">Here</a> are the kayak.com results and <a href="https://www.airbnb.com/s/Long-Island-City--Queens--NY?checkin=06%2F07%2F2013&checkout=06%2F09%2F2013&guests=2&sw_lat=40.73916676620979&sw_lng=-73.95688045251461&ne_lat=40.75399261855144&ne_lng=-73.93731105554195&search_by_map=true">these</a> are the Air B&B listings.</a> <br /><br />
-To get to the wedding from Long Island City, take the <b>G</b> at the Court Square station two stops south to the Greenpoint Avenue station.</li>
-
-</ul>
-
-<Br />
 
 <br />
 <h2 class="left">Brooklyn</h2>
